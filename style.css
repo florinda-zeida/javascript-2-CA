@@ -1,0 +1,158 @@
+
+* {
+  box-sizing: border-box;
+}
+html {
+  padding: 0px auto;
+  margin: 0px auto;
+  background-color: #ffffff;
+}
+
+body {
+  max-width: 1224px;
+  padding: 0px 0px;
+  margin: 0px auto;
+  background-color: #86685b;
+  font-family: poppins, "sans-serif";
+  color: rgb(46, 46, 46);
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+button {
+  display: inline-block;
+  padding: 7px 50px;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: rgb(242, 120, 75);
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover {
+  background-color: rgb(206, 99, 61);
+}
+
+span{
+  padding-right: 15px;
+  font-size: 16px;
+  color: #3b3b3b;
+  font-weight: 400;
+}
+
+.index-page{
+  max-width: 1224px;
+  padding: 10px;
+  background: white;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 2px;
+}
+h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+a {
+  font-family: Poppins, georgia, serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 11px 6px;
+  color: black;
+}
+.active, a:hover{
+  color:#97614c;
+ 
+}
+.container {
+  margin: 20px auto;
+  padding: 50px;
+  max-width: 1224px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.books-container {
+  max-width: 1100px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.filter-books{
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 20px;
+}
+
+.book {
+  padding: 1rem;
+  margin: 1rem;
+  background: white;
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.book i {
+  font-size: 30px;
+  color: rgb(221, 102, 5);
+}
+
+.book i.fa {
+  color: rgb(221, 102, 5);
+}
+
+.message {
+  width: 100%;
+  padding: 15px;
+
+}
+
+.message.error {
+  color: white;
+  background: red;
+}
+
+.message.warning {
+  margin-top: 20px;
+  color: white;
+  background: rgb(245, 172, 37);
+}
+
+.footer {
+  background-color: #2D1910;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  margin-top: -70px;
+  color: white;
+  font-family: lato, "sans-serif";
+  font-weight: 300;
+  font-size: 15px;
+
+}
