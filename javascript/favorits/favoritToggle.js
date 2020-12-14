@@ -1,4 +1,4 @@
-import { getFavoritelist, saveFavoritelist } from "../utiliti/favoritFunction.js";
+import { getFavoritelist, saveFavoritelist } from "../favorits/favoritFunction.js";
 
 export default function favoritToggle(){
 

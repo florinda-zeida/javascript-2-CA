@@ -1,9 +1,10 @@
-import { getFavoritelist } from "./utiliti/favoritFunction.js";
+import { getFavoritelist } from "./favorits/favoritFunction.js";
+import clearItem from "./favorits/clearItem.js";
 import displayMessage from "./components/displayMessage.js";
 
 const favoriteList = getFavoritelist();
 
-
+clearItem();
 
 if(favoriteList.length === 0){
   displayMessage("warning", "No books in favorite list", ".books-container");

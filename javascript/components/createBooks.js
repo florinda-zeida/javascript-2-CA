@@ -1,7 +1,7 @@
 
 import displayMessage from "./displayMessage.js";
-import { getFavoritelist} from "../utiliti/favoritFunction.js";
-import favoritToggle from "../utiliti/favoritToggle.js"
+import { getFavoritelist} from "../favorits/favoritFunction.js";
+import favoritToggle from "../favorits/favoritToggle.js"
 
 
 export default function createBooks(books) {

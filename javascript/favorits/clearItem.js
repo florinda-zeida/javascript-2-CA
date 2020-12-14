@@ -1,4 +1,4 @@
-import { getFavoritelist } from "../utiliti/favoritToggle.js";
+import { getFavoritelist } from "../favorits/favoritFunction.js";
 
 export default function clearItem() {
     const clearBtn = document.querySelector("#clear-btn");
